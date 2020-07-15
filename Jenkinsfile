@@ -1,9 +1,9 @@
 @Library('Demo-Shared-lib') _
 def branchName='master'
 def urllink='https://github.com/Samlee97/jacoco-codecoverage.git'
-def dockerImage='samlee18/samlee'
-def mavenCommand='mvn clean package'
-def sonarOrganization='samlee'
-def sonarProjectKey='samlee_sonar_analysis'
-def sonarProjectName='samlee_sonar_analysis'
+def dockerimage='samlee18/samlee'
+def mavenBuild='mvn clean package'
+def sonarorganization='samlee'
+def sonarprojectKey='samlee_sonar_analysis'
+def sonarprojectName='samlee_sonar_analysis'
 Central_pipeline(branchName,urllink,dockerimage,mavenBuild,sonarorganization,sonarprojectKey,sonarprojectName)
