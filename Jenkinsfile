@@ -12,7 +12,7 @@ pipeline {
        stage("Code Checkout") {
            steps {
                
-               gitCheckout("master", "https://github.com/Samlee97/java-maven-junit-helloworld.git" )
+               gitCheckout("master", "https://github.com/Samlee97/jacoco-codecoverage.git" )
                }
            
        }
